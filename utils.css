@@ -1,0 +1,98 @@
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.px-2 {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-default {
+    color: rgb(173 30 46);
+}
+
+.default-theme {
+    color: rgb(255 49 73);
+    ;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.btn {
+    padding: 7px 12px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    ;
+    background-color: rgb(255 49 73);
+
+}
+
+.p-2 {
+    padding: 2px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-light {
+    color: #b18585;
+}
+.font-m{
+    font-size: 1.25rem;
+}
