@@ -43,17 +43,14 @@
 
 }
 #card1{
-    background: green;
     grid-area: card1;
 
 }
 #card2{
-    background: rgb(41, 128, 41);
     grid-area: card2;
 
 }
 #card3{
-    background: rgb(96, 139, 96);
     grid-area: card3;
 
 }
