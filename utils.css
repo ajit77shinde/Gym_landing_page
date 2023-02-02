@@ -93,6 +93,11 @@
 .text-light {
     color: #b18585;
 }
-.font-m{
+
+.font-m {
     font-size: 1.25rem;
+}
+
+.fs-1 {
+    font-size: 1rem;
 }
