@@ -23,8 +23,40 @@
 
 .card-deck {
     margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "card1 card2 card3";
+    grid-gap: 1.2rem;
+    width: 100%;
 }
 
+@media only screen and (max-width: 550px){
+    .card-deck{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "card1"
+        "card2"
+        "card3";
+    }
+
+}
+#card1{
+    background: green;
+    grid-area: card1;
+
+}
+#card2{
+    background: rgb(41, 128, 41);
+    grid-area: card2;
+
+}
+#card3{
+    background: rgb(96, 139, 96);
+    grid-area: card3;
+
+}
 .container {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
